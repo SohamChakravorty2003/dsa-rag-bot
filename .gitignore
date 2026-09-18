@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# environment variables
+.env
+
+# Vector store (regenerate with build_vectorstore.py)
+chroma_db/
+
+# Source PDF (copyrighted - do not redistribute)
+DataStructures.pdf
